@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+title: "Agentic Patterns: A Standardized Library for AI Agent Design Patterns"
+message: "If you use this software, please cite it as below."
+authors:
+  - given-names: Balaram
+    family-names: ""
+    orcid: "https://orcid.org/0000-0001-5977-8392"
+    github: "https://github.com/BalaramUOA"
+    email: "bpan575@aucklanduni.ac.nz"
+repository-code: "https://github.com/BalaramUOA/agentic-patterns"
+url: "https://github.com/BalaramUOA/agentic-patterns"
+abstract: "A standardized Python library for implementing and comparing AI agent design patterns including Chain-of-Thought, Reflexion, Tree of Thoughts, Multi-Agent Debate, and Tool-Use patterns. Provides a unified interface for pattern selection, execution, and comparison across different LLM providers."
+keywords:
+  - "artificial intelligence"
+  - "agent design patterns"
+  - "large language models"
+  - "prompt engineering"
+  - "reasoning patterns"
+  - "AI standardization"
+license: MIT
+version: 0.1.0
+date-released: 2025-01-27 
