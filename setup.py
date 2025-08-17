@@ -11,7 +11,7 @@ setup(
     description="A standardized library for AI agent design patterns",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/BalaramUOA/agentic-patterns",
+    url="https://github.com/balrm/agentic-patterns",
     packages=find_packages(),
     classifiers=[
         "Development Status :: 3 - Alpha",
@@ -43,10 +43,10 @@ setup(
     },
     keywords="ai, agents, patterns, llm, prompt-engineering",
     project_urls={
-        "Bug Reports": "https://github.com/BalaramUOA/agentic-patterns/issues",
-        "Source": "https://github.com/BalaramUOA/agentic-patterns",
-        "Documentation": "https://github.com/BalaramUOA/agentic-patterns#readme",
+        "Bug Reports": "https://github.com/balrm/agentic-patterns/issues",
+"Source": "https://github.com/balrm/agentic-patterns",
+"Documentation": "https://github.com/balrm/agentic-patterns#readme",
         "ORCID": "https://orcid.org/0000-0001-5977-8392",
-        "GitHub": "https://github.com/BalaramUOA",
+        "GitHub": "https://github.com/balrm",
     },
 ) 

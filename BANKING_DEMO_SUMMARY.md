@@ -7,7 +7,7 @@ I've created a comprehensive banking demo system using your Gemini API key that 
 ## 🔑 **API Key Setup**
 
 - **Secure Storage**: Your Gemini API key is stored in `.env` file (gitignored)
-- **Key**: `AIzaSyCw0nJtyxhgq2TPYQjSXc3dBGwg1D8tuCs`
+- **Key**: `[REDACTED - Use your own API key]`
 - **Model**: Using `gemini-1.5-flash` (optimized for cost and availability)
 - **Status**: ✅ Working perfectly
 

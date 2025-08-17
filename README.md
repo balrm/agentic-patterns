@@ -66,11 +66,26 @@ llm_client = create_client("anthropic", api_key=os.getenv("ANTHROPIC_API_KEY"))
 
 ### **3. Use Standard Patterns**
 ```python
-from agentic_patterns import get_pattern
+import asyncio
+import os
+from agentic_patterns import get_pattern, create_client
 
-# Standard pattern selection
-pattern = get_pattern("chain_of_thought", llm_client)
-result = await pattern.execute("Your problem here")
+async def main():
+    # Setup LLM client
+    llm_client = create_client("openai", api_key=os.getenv("OPENAI_API_KEY"))
+    
+    # Get pattern
+    pattern = get_pattern("chain_of_thought", llm_client)
+    
+    # Execute
+    result = await pattern.execute("Your AI task here")
+    
+    print(f"Response: {result.response}")
+    print(f"Cost: ${result.cost:.4f}")
+    print(f"Pattern: {result.pattern_name}")
+
+# Run
+asyncio.run(main())
 ```
 
 ### **4. Compare Patterns (The Key Innovation)**
@@ -385,7 +400,7 @@ If you use this library in your research or projects, please cite it as:
   title = {Agentic Patterns: A Standardized Library for AI Agent Design Patterns},
   author = {Balaram},
   year = {2025},
-  url = {https://github.com/BalaramUOA/agentic-patterns},
+  url = {https://github.com/balrm/agentic-patterns},
   doi = {10.5281/zenodo.XXXXXXX},
   note = {A standardized Python library for implementing and comparing AI agent design patterns}
 }
@@ -393,8 +408,8 @@ If you use this library in your research or projects, please cite it as:
 
 **Author Information:**
 - **ORCID**: [0000-0001-5977-8392](https://orcid.org/0000-0001-5977-8392)
-- **GitHub**: [BalaramUOA](https://github.com/BalaramUOA)
-- **Repository**: [agentic-patterns](https://github.com/BalaramUOA/agentic-patterns)
+- **GitHub**: [balrm](https://github.com/balrm)
+- **Repository**: [agentic-patterns](https://github.com/balrm/agentic-patterns)
 
 ## 🌍 **Join the Global Standardization Movement**
 
