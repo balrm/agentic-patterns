@@ -43,6 +43,8 @@ Currently, this decision is:
 | **Tree of Thoughts** | Multi-path exploration | Strategic decisions | High | Slow | Very High |
 | **Multi-Agent Debate** | Multiple perspectives | Balanced decisions | Medium | Medium | High |
 | **Tool-Use** | External tool integration | Calculations & data | Low | Fast | Good |
+<img width="1412" height="796" alt="image" src="https://github.com/user-attachments/assets/1ba20f4a-8819-4aa1-9fcf-a9207ad897cc" />
+
 
 ## 🚀 **Quick Start (Global Standard)**
 
