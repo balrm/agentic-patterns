@@ -1,6 +1,8 @@
 # Agentic Patterns
 
 **The global standard for AI reasoning pattern selection and implementation.**
+<img width="1346" height="808" alt="image" src="https://github.com/user-attachments/assets/11130b23-697e-4938-81a9-61ea8911fa54" />
+
 
 ## 🎯 **The Global Standardization Problem**
 
@@ -43,7 +45,6 @@ Currently, this decision is:
 | **Tree of Thoughts** | Multi-path exploration | Strategic decisions | High | Slow | Very High |
 | **Multi-Agent Debate** | Multiple perspectives | Balanced decisions | Medium | Medium | High |
 | **Tool-Use** | External tool integration | Calculations & data | Low | Fast | Good |
-<img width="1346" height="808" alt="image" src="https://github.com/user-attachments/assets/7da92029-700e-4fac-9669-56ebd9fc8712" />
 
 
 
