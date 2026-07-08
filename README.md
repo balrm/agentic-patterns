@@ -404,11 +404,10 @@ If you use this library in your research or projects, please cite it as:
   title = {Agentic Patterns: A Standardized Library for AI Agent Design Patterns},
   author = {Balaram},
   year = {2025},
-  url = {https://github.com/balrm/agentic-patterns},
+  url = {[https://github.com/balrm/agentic-patterns](https://github.com/balrm/agentic-patterns)},
   doi = {10.5281/zenodo.XXXXXXX},
   note = {A standardized Python library for implementing and comparing AI agent design patterns}
 }
-```
 
 **Author Information:**
 - **ORCID**: [0000-0001-5977-8392](https://orcid.org/0000-0001-5977-8392)
